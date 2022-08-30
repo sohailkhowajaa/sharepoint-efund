@@ -1,0 +1,5 @@
+SPComponentLoader.loadScript('https://neologixindia.sharepoint.com/sites/test4/_catalogs/masterpage/assets/libs/jquery/jquery.min.js', { globalExportsName: 'jQuery' }).then(($: any): void => {
+      SPComponentLoader.loadScript('https://neologixindia.sharepoint.com/sites/test4/_catalogs/masterpage/assets/libs/bootstrap/js/bootstrap.bundle.min.js', { globalExportsName: 'bootstrap' }).then((): void => {
+        this._renderList();
+      });
+    });
